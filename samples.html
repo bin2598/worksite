@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Our Samples</title>
+        <link rel="stylesheet" href="samples.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <h1>See Our Samples</h1>
+
+        <div class="container col-sm-10">
+
+            <div class="navlink">
+                <ul>
+                    <li>Home</li>
+                    <li>sample</li>
+                    <li>sample</li>
+                    <li>sample</li>
+                    <li>About</li>
+                </ul>
+                <h5 style="float: right; padding: 25px;">Logo</h5>
+                <h2>My Sample Company</h2>
+            </div>
+            <br>
+
+            <div class="navlink1">
+                <ul>
+                    <li>Home</li>
+                    <li>Sample</li>
+                    <li>About</li>
+                    <li>Sample</li>
+                    <li>location</li>
+                    <li>Home</li>
+                </ul>
+
+            </div>
+
+<br>
+
+            <div class="container">
+            <div class="row">
+                <div class="col-sm-5">
+                    
+                    <svg id="r" style="color:white; font-size:60px;padding:10px;" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-blockquote-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M2 3.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0 3a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5zm0 3a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5zm0 3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"/> 
+                    </svg>
+                    <span class="clickicon2"><- Click here</span>
+
+                    <nav id="list1">
+                    <ul id = 'ul'>
+                        <li>samples</li>
+                        <li>samples</li>
+                        <li>samples</li>
+                        <li>samples</li>
+                        <li>samples</li>
+                    </ul>
+                    </nav>
+
+                </div>
+                <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+                <script>
+                // $(document).ready(function(){
+                //     $("#r").click(function(){
+                //         $("#list1").toggle();
+                //     });
+                // });
+                f = document.getElementById("r")
+                l = document.getElementById("list1")
+                u = document.getElementById("ul")
+                u.style.opacity = '0';
+                l.style.width = '0px'
+                f.onclick = function wid(){
+                    if(l.style.width == '0px'){
+                        l.style.width = "250px"
+                        u.style.opacity = '1'
+                        l.style.color == 'orange'
+                    }
+                    else{
+                        // l.style.opacity = '0'
+                        l.style.width = '0px'
+                        u.style.opacity = '0'
+                    }
+                    
+                }
+                </script>
+
+                <div class="col-sm-2"></div>
+
+                <div class="col-sm-5">
+
+                    
+                        
+
+                        <nav id="list2">
+                            <ul id='ul2'>
+                                <li><a>samples</a></li>
+                                <li><a>samples</a></li>
+                                <li><a>samples</a></li>
+                                <li>samples</li>
+                                <li>samples</li>
+                            </ul>
+                        </nav>
+
+                        <svg onclick='widt()' id="r2" style="color:white; font-size:60px;padding:10px;float:right;" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-blockquote-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M2 3.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0 3a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5zm0 3a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5zm0 3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"/> 
+                        </svg>
+
+                        <span class="clickicon">Click here -></span>
+        
+                    </div>
+
+                        <script>
+                        f2 = document.getElementById("r2")
+                        // console.log(f2)
+                        l2 = document.getElementById("list2")
+                        u2 = document.getElementById("ul2")
+                        u2.style.opacity = '0'
+                        l2.style.width = '0px'
+                        function widt(){
+                            if(l2.style.width == '0px'){
+                                
+                                l2.style.width = "250px"
+                                // console.log(l2.style.width)
+                                u2.style.opacity = '1'
+                                l2.style.color == 'orange'
+                            }
+                            else{
+                                l2.style.width = '0px'
+                                // console.log(l2.style.width)
+                                u2.style.opacity = '0'
+                            }
+                            
+                        }
+                        </script>
+
+
+                </div>
+            </div>
+                
+            <div class="main">
+            <div class="inner-width">
+                <button class="menu-toggler" id="tog">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="navbar-menu" id="nav">
+                    <a href="#">About</a>
+                    <a href="#">Service</a>
+                    <a href="#">Education</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+
+            <script>
+                $(document).ready(function(){
+                    $(".menu-toggler").click(function(){
+                        console.log("helo")
+                        $(".navbar-menu").toggleClass("act")
+                        $(".menu-toggler").toggleClass("act")
+                    })
+                })
+            </script>
+            
+            </div>
+
+            <div class="imganim">
+                <div>
+                <h1>
+                    Hello
+                    <div class="text middle"> 
+                    <span>W</span>
+                    <span class="hide">e</span>
+                    <span class="hide">l</span>
+                    <span class="hide">c</span>
+                    <span class="hide">o</span>
+                    <span class="hide">m</span>
+                    <span class="hide">e </span>
+                     To Mysite
+                </h1>
+                </div>
+            </div>
+
+
+        </div>
+        
+    </body>
+</html>
